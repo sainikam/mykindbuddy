@@ -1,15 +1,25 @@
 # aimentalhealthassistant
 
-A new Flutter project.
+A Flutter project used for creating MyKindBuddy, an AI-powered Mental Health Assistant Application, which is a friendly companion and helps build your mental health.
 
-## Getting Started
+#App Usage
 
-This project is a starting point for a Flutter application.
+MyKindBuddy is designed to help users actively monitor and care for their mental well-being through simple, daily interactions. Here’s how users typically engage with the app:
 
-A few resources to get you started if this is your first Flutter project:
+📝 Daily Journaling:
+Users can write freely about their thoughts and feelings in a secure, private journal. The app provides a calm space for emotional expression.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+📊 Mood Tracking:
+After journaling, the app uses AI sentiment analysis (via Amazon Comprehend) to detect the emotional tone of entries and visualize mood trends over time.
+
+🤖 AI-Powered Reflection:
+OpenAI GPT‑4 processes journal input and generates empathetic, human-like responses that encourage self-awareness and emotional validation.
+
+🔒 Secure Access:
+Users authenticate securely via Amazon Cognito, ensuring that personal entries remain private and protected.
+
+📈 Emotional Insight Over Time:
+With consistent use, users can reflect on how their emotions shift across days or weeks, helping them understand patterns and triggers.
 
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
